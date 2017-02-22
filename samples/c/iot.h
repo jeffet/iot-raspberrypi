@@ -36,7 +36,7 @@
 //#define MSPROXY_URL "tcp://messaging.quickstart.internetofthings.ibmcloud.com:1883"
 #define MSPROXY_URL "tcp://46.16.189.243:1883"
 #define MSPROXY_URL_SSL "ssl://46.16.189.242:8883"
-#define EVENTS_INTERVAL 300 // every 5 minutes jeffT
+#define EVENTS_INTERVAL 60 // 1 event per minute jeffT
 #define DEVICE_NAME "myPi"
 //Logging level for the syslog
 //Default is INFO-6. Other possible values - ERROR-3, INFO-6, DEBUG-7
